@@ -13,8 +13,6 @@ namespace Inheritance
 
         public Student(string name, int age, string studentid, string email) : base(name, age)
         {
-            Name = name;
-            Age = age;
             StudentId = studentid;
             Email = email;
         }
